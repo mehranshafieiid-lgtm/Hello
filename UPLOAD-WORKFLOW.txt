@@ -1,0 +1,9 @@
+SONORA workflow upload note
+
+The visible copy is in github-workflows/sync-library.yml (also at sync-library.yml).
+For GitHub Actions to run, the workflow MUST be placed at this exact repository path:
+.github/workflows/sync-library.yml
+
+If your file picker hides .github, open the repository on GitHub, choose Add file > Create new file,
+enter .github/workflows/sync-library.yml as the filename, then paste the contents of the visible copy.
+Do not leave the workflow only inside github-workflows; GitHub Actions will not run it there.
